@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Image.h"
 
 @interface ImageList : NSObject
+@property (strong, nonatomic) Image *image;
+@property (strong, nonatomic) NSMutableArray *imageArr;
+
+- (NSArray *)getImageList;
 
 @end

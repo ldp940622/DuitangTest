@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "ImageList.h"
+#import "ScrollView.h"
+#import "PageView.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <UIScrollViewDelegate>
+@property (strong, nonatomic) ScrollView *scrollView;
+@property (strong, nonatomic) PageView *pageView;
+@property (strong, nonatomic) NSArray *imageArray;
 
 @end
-

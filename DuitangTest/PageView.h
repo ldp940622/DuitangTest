@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface PageView : UIView
+@property (strong, nonatomic) UIImageView *imageView;
+@property (strong, nonatomic) UILabel *descriptionLabel;
+@property (nonatomic) CGRect imageFrame;
 
 @end

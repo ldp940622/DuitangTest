@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		303D9E8AAFD25CFC545FD715 /* libPods-DuitangTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C0B7968F38DC2AFC8D6AF5 /* libPods-DuitangTest.a */; };
+		8D3B07F31B3ED0600038D64F /* ImageArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D3B07F21B3ED0600038D64F /* ImageArray.plist */; };
+		8D3B07F61B3ED9750038D64F /* ImageList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3B07F51B3ED9750038D64F /* ImageList.m */; };
+		8D3B07F91B3EF3A30038D64F /* ScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3B07F81B3EF3A30038D64F /* ScrollView.m */; };
+		8D3B07FC1B3EFC510038D64F /* PageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3B07FB1B3EFC510038D64F /* PageView.m */; };
 		8DAD6F201B3E94F700B42027 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD6F1F1B3E94F700B42027 /* main.m */; };
 		8DAD6F231B3E94F700B42027 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD6F221B3E94F700B42027 /* AppDelegate.m */; };
 		8DAD6F261B3E94F700B42027 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD6F251B3E94F700B42027 /* ViewController.m */; };
-		8DAD6F291B3E94F700B42027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAD6F271B3E94F700B42027 /* Main.storyboard */; };
 		8DAD6F2B1B3E94F700B42027 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAD6F2A1B3E94F700B42027 /* Images.xcassets */; };
-		8DAD6F2E1B3E94F700B42027 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DAD6F2C1B3E94F700B42027 /* LaunchScreen.xib */; };
 		8DAD6F3A1B3E94F700B42027 /* DuitangTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD6F391B3E94F700B42027 /* DuitangTestTests.m */; };
+		8DAD6F461B3E9E8900B42027 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD6F451B3E9E8900B42027 /* Image.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F1EE526C31F00464018B9AF /* Pods-DuitangTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitangTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DuitangTest/Pods-DuitangTest.debug.xcconfig"; sourceTree = "<group>"; };
+		5DEA076A418FAC111DAB441A /* Pods-DuitangTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitangTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-DuitangTest/Pods-DuitangTest.release.xcconfig"; sourceTree = "<group>"; };
+		8D3B07F21B3ED0600038D64F /* ImageArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ImageArray.plist; sourceTree = "<group>"; };
+		8D3B07F41B3ED9750038D64F /* ImageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageList.h; sourceTree = "<group>"; };
+		8D3B07F51B3ED9750038D64F /* ImageList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageList.m; sourceTree = "<group>"; };
+		8D3B07F71B3EF3A30038D64F /* ScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollView.h; sourceTree = "<group>"; };
+		8D3B07F81B3EF3A30038D64F /* ScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollView.m; sourceTree = "<group>"; };
+		8D3B07FA1B3EFC510038D64F /* PageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageView.h; sourceTree = "<group>"; };
+		8D3B07FB1B3EFC510038D64F /* PageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageView.m; sourceTree = "<group>"; };
 		8DAD6F1A1B3E94F700B42027 /* DuitangTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuitangTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DAD6F1E1B3E94F700B42027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DAD6F1F1B3E94F700B42027 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,12 +47,13 @@
 		8DAD6F221B3E94F700B42027 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8DAD6F241B3E94F700B42027 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8DAD6F251B3E94F700B42027 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8DAD6F281B3E94F700B42027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DAD6F2A1B3E94F700B42027 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8DAD6F2D1B3E94F700B42027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8DAD6F331B3E94F700B42027 /* DuitangTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuitangTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DAD6F381B3E94F700B42027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DAD6F391B3E94F700B42027 /* DuitangTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuitangTestTests.m; sourceTree = "<group>"; };
+		8DAD6F441B3E9E8900B42027 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		8DAD6F451B3E9E8900B42027 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		B9C0B7968F38DC2AFC8D6AF5 /* libPods-DuitangTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DuitangTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303D9E8AAFD25CFC545FD715 /* libPods-DuitangTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +75,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34DB589F8433675C7665B5A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9C0B7968F38DC2AFC8D6AF5 /* libPods-DuitangTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4653073CC90F61587752D22B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F1EE526C31F00464018B9AF /* Pods-DuitangTest.debug.xcconfig */,
+				5DEA076A418FAC111DAB441A /* Pods-DuitangTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D89C6B31B3F17E4009F0F48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D3B07F71B3EF3A30038D64F /* ScrollView.h */,
+				8D3B07F81B3EF3A30038D64F /* ScrollView.m */,
+				8D3B07FA1B3EFC510038D64F /* PageView.h */,
+				8D3B07FB1B3EFC510038D64F /* PageView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8D89C6B41B3F1809009F0F48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DAD6F241B3E94F700B42027 /* ViewController.h */,
+				8DAD6F251B3E94F700B42027 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		8DAD6F111B3E94F700B42027 = {
 			isa = PBXGroup;
 			children = (
 				8DAD6F1C1B3E94F700B42027 /* DuitangTest */,
 				8DAD6F361B3E94F700B42027 /* DuitangTestTests */,
 				8DAD6F1B1B3E94F700B42027 /* Products */,
+				4653073CC90F61587752D22B /* Pods */,
+				34DB589F8433675C7665B5A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,11 +137,10 @@
 			children = (
 				8DAD6F211B3E94F700B42027 /* AppDelegate.h */,
 				8DAD6F221B3E94F700B42027 /* AppDelegate.m */,
-				8DAD6F241B3E94F700B42027 /* ViewController.h */,
-				8DAD6F251B3E94F700B42027 /* ViewController.m */,
-				8DAD6F271B3E94F700B42027 /* Main.storyboard */,
+				8D89C6B31B3F17E4009F0F48 /* View */,
+				8DAD6F431B3E9E6500B42027 /* Model */,
+				8D89C6B41B3F1809009F0F48 /* Controller */,
 				8DAD6F2A1B3E94F700B42027 /* Images.xcassets */,
-				8DAD6F2C1B3E94F700B42027 /* LaunchScreen.xib */,
 				8DAD6F1D1B3E94F700B42027 /* Supporting Files */,
 			);
 			path = DuitangTest;
@@ -119,6 +172,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8DAD6F431B3E9E6500B42027 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DAD6F441B3E9E8900B42027 /* Image.h */,
+				8DAD6F451B3E9E8900B42027 /* Image.m */,
+				8D3B07F41B3ED9750038D64F /* ImageList.h */,
+				8D3B07F51B3ED9750038D64F /* ImageList.m */,
+				8D3B07F21B3ED0600038D64F /* ImageArray.plist */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DAD6F3D1B3E94F700B42027 /* Build configuration list for PBXNativeTarget "DuitangTest" */;
 			buildPhases = (
+				10C01206F3EE1BB603824AB6 /* Check Pods Manifest.lock */,
 				8DAD6F161B3E94F700B42027 /* Sources */,
 				8DAD6F171B3E94F700B42027 /* Frameworks */,
 				8DAD6F181B3E94F700B42027 /* Resources */,
+				231E79C836607206652642E6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +266,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DAD6F291B3E94F700B42027 /* Main.storyboard in Resources */,
-				8DAD6F2E1B3E94F700B42027 /* LaunchScreen.xib in Resources */,
 				8DAD6F2B1B3E94F700B42027 /* Images.xcassets in Resources */,
+				8D3B07F31B3ED0600038D64F /* ImageArray.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +280,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10C01206F3EE1BB603824AB6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		231E79C836607206652642E6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DuitangTest/Pods-DuitangTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8DAD6F161B3E94F700B42027 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8DAD6F261B3E94F700B42027 /* ViewController.m in Sources */,
+				8D3B07FC1B3EFC510038D64F /* PageView.m in Sources */,
+				8D3B07F61B3ED9750038D64F /* ImageList.m in Sources */,
+				8DAD6F461B3E9E8900B42027 /* Image.m in Sources */,
 				8DAD6F231B3E94F700B42027 /* AppDelegate.m in Sources */,
 				8DAD6F201B3E94F700B42027 /* main.m in Sources */,
+				8D3B07F91B3EF3A30038D64F /* ScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +345,6 @@
 			targetProxy = 8DAD6F341B3E94F700B42027 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8DAD6F271B3E94F700B42027 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8DAD6F281B3E94F700B42027 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8DAD6F2C1B3E94F700B42027 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8DAD6F2D1B3E94F700B42027 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8DAD6F3B1B3E94F700B42027 /* Debug */ = {
@@ -345,9 +429,12 @@
 		};
 		8DAD6F3E1B3E94F700B42027 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1EE526C31F00464018B9AF /* Pods-DuitangTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DuitangTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,9 +442,12 @@
 		};
 		8DAD6F3F1B3E94F700B42027 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DEA076A418FAC111DAB441A /* Pods-DuitangTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DuitangTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +506,7 @@
 				8DAD6F3F1B3E94F700B42027 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DAD6F401B3E94F700B42027 /* Build configuration list for PBXNativeTarget "DuitangTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +515,7 @@
 				8DAD6F421B3E94F700B42027 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

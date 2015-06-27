@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface Image : NSObject
+@property (strong, nonatomic) NSURL *imageUrl;
+@property (strong, nonatomic) NSString *imageDescription;
+@property (strong, nonatomic) NSString *imageType;
 
 @end
