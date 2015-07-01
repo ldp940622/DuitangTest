@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		303D9E8AAFD25CFC545FD715 /* libPods-DuitangTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C0B7968F38DC2AFC8D6AF5 /* libPods-DuitangTest.a */; };
-		8D3B07F31B3ED0600038D64F /* ImageArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D3B07F21B3ED0600038D64F /* ImageArray.plist */; };
 		8D3B07F61B3ED9750038D64F /* ImageList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3B07F51B3ED9750038D64F /* ImageList.m */; };
 		8D3B07F91B3EF3A30038D64F /* ScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3B07F81B3EF3A30038D64F /* ScrollView.m */; };
 		8D3B07FC1B3EFC510038D64F /* PageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3B07FB1B3EFC510038D64F /* PageView.m */; };
@@ -33,7 +32,6 @@
 /* Begin PBXFileReference section */
 		0F1EE526C31F00464018B9AF /* Pods-DuitangTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitangTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DuitangTest/Pods-DuitangTest.debug.xcconfig"; sourceTree = "<group>"; };
 		5DEA076A418FAC111DAB441A /* Pods-DuitangTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuitangTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-DuitangTest/Pods-DuitangTest.release.xcconfig"; sourceTree = "<group>"; };
-		8D3B07F21B3ED0600038D64F /* ImageArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ImageArray.plist; sourceTree = "<group>"; };
 		8D3B07F41B3ED9750038D64F /* ImageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageList.h; sourceTree = "<group>"; };
 		8D3B07F51B3ED9750038D64F /* ImageList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageList.m; sourceTree = "<group>"; };
 		8D3B07F71B3EF3A30038D64F /* ScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollView.h; sourceTree = "<group>"; };
@@ -179,7 +177,6 @@
 				8DAD6F451B3E9E8900B42027 /* Image.m */,
 				8D3B07F41B3ED9750038D64F /* ImageList.h */,
 				8D3B07F51B3ED9750038D64F /* ImageList.m */,
-				8D3B07F21B3ED0600038D64F /* ImageArray.plist */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -267,7 +264,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DAD6F2B1B3E94F700B42027 /* Images.xcassets in Resources */,
-				8D3B07F31B3ED0600038D64F /* ImageArray.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
